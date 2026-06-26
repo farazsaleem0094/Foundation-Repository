@@ -1,0 +1,181 @@
+# ============================================================
+# AI Engineering Platform (AIEP)
+# Repository Manifest
+# ============================================================
+
+manifest:
+  schemaVersion: "1.0.0"
+  manifestVersion: "1.0.0"
+
+repository:
+
+  id: "AIEP-FOUNDATION-001"
+
+  name: "Foundation Repository"
+
+  shortName: "AIEP"
+
+  description: >
+    AI Engineering Platform Foundation Repository.
+    Documentation-as-Code platform for building
+    enterprise software.
+
+  owner: "Project Owner"
+
+  visibility: "private"
+
+  license: "Proprietary"
+
+  repositoryType: "Documentation-as-Code"
+
+  status: "Active Development"
+
+  created: "2026-06-26"
+
+  lastUpdated: "2026-06-26"
+
+  lastReviewed: "2026-06-26"
+
+release:
+
+  currentRelease: "0.1"
+
+  releaseName: "Foundation"
+
+  phase: "Foundation"
+
+  milestone: "M1 Repository Bootstrap"
+
+  sprint: "S01"
+
+documentation:
+
+  currentDocument: "REPOSITORY-MANIFEST.yaml"
+
+  nextDocument: "CHANGELOG.md"
+
+  currentCheckpoint: "CP-0002"
+
+  currentResumePackage: "RP-0001"
+
+  documentationVersion: "1.0.0"
+
+runtime:
+
+  projectBrain: "PROJECT-BRAIN.md"
+
+  checkpointDirectory: "runtime/checkpoints"
+
+  resumePackageDirectory: "runtime/resume-packages"
+
+  manifestDirectory: "runtime/manifests"
+
+  sessionsDirectory: "runtime/sessions"
+
+governance:
+
+  repositoryContract: "ROOT-000"
+
+  masterControlDocument: "DOC-000"
+
+  projectConstitution: "DOC-001"
+
+  aiConstitution: "DOC-002"
+
+  documentationStandards: "DOC-003"
+
+  repositoryStandards: "DOC-004"
+
+  recoverySystem: "DOC-005"
+
+architecture:
+
+  methodology: "Documentation-as-Code"
+
+  architectureStyle: "Enterprise"
+
+  recoveryStrategy: "Checkpoint Based"
+
+  documentationSource: "Repository"
+
+  sourceOfTruth: "Documentation"
+
+compiler:
+
+  enabled: false
+
+  version: "0.0.1"
+
+  outputFormats:
+
+    - Markdown
+
+    - TXT
+
+    - PDF
+
+    - HTML
+
+automation:
+
+  githubActions: false
+
+  compiler: false
+
+  validation: false
+
+  website: false
+
+quality:
+
+  reviewBoard: "Repository Review Board"
+
+  validationRequired: true
+
+  beginnerFriendly: true
+
+  officialSourcesOnly: true
+
+statistics:
+
+  completedDocuments: 3
+
+  activeDocuments: 1
+
+  foundationDocuments: 8
+
+  approvedADR: 3
+
+  openCR: 0
+
+health:
+
+  overall: 85
+
+  governance: "Good"
+
+  documentation: "Good"
+
+  runtime: "In Progress"
+
+  recovery: "In Progress"
+
+next:
+
+  priority:
+
+    - CHANGELOG.md
+
+    - LICENSE
+
+    - .gitignore
+
+    - ROOT-000
+
+notes:
+
+  - "Update this file after every working session."
+
+  - "Do not modify manually once compiler is introduced."
+
+  - "Every release updates this manifest."
