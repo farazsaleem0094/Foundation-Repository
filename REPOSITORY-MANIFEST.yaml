@@ -179,3 +179,25 @@ notes:
   - "Do not modify manually once compiler is introduced."
 
   - "Every release updates this manifest."
+
+toolchain:
+  git:
+    minimumVersion: "2.49.0"
+
+  dotnet:
+    sdk: "10.0"
+
+  powershell:
+    minimumVersion: "7.5"
+
+  vscode:
+    minimumVersion: "1.100"
+
+  docker:
+    minimumVersion: "28.0"
+
+  nodejs:
+    minimumVersion: "22"
+
+  python:
+    minimumVersion: "3.13"
