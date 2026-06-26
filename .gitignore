@@ -1,0 +1,130 @@
+# ==========================================================
+# AI Engineering Platform (AIEP)
+# Foundation Repository
+# .gitignore
+# ==========================================================
+
+# ------------------------------
+# Operating System
+# ------------------------------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+# Visual Studio
+# ------------------------------
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ------------------------------
+# Visual Studio Code
+# ------------------------------
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ------------------------------
+# Rider
+# ------------------------------
+
+.idea/
+
+# ------------------------------
+# .NET
+# ------------------------------
+
+bin/
+obj/
+
+# ------------------------------
+# Node.js
+# ------------------------------
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# Python
+# ------------------------------
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ------------------------------
+# Logs
+# ------------------------------
+
+logs/
+*.log
+
+# ------------------------------
+# Temporary Files
+# ------------------------------
+
+temp/
+tmp/
+*.tmp
+
+# ------------------------------
+# Generated Outputs
+# ------------------------------
+
+generated/pdf/
+generated/html/
+generated/search/
+generated/site/
+
+# Keep generated markdown and txt if they are source-controlled
+# generated/markdown/
+# generated/txt/
+
+# ------------------------------
+# Docker
+# ------------------------------
+
+.docker/
+
+# ------------------------------
+# Test Results
+# ------------------------------
+
+TestResults/
+coverage/
+
+# ------------------------------
+# Secrets
+# ------------------------------
+
+.env
+.env.*
+*.secret
+*.key
+*.pfx
+
+# ------------------------------
+# Archives
+# ------------------------------
+
+*.zip
+*.7z
+*.rar
+
+# ------------------------------
+# AI Runtime
+# ------------------------------
+
+runtime/cache/
+runtime/temp/
